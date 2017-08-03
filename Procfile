@@ -1,1 +1,1 @@
-web: python MLTutorial.py
+web: python your_app_name.py
