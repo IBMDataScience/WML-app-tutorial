@@ -14,8 +14,8 @@
             <div class="row">
                 <div class="col-md-12">
                 <h3>To determine the probability of a tent purchase, please enter the following:</h3>
+                </div>
             </div>
-        </div>
     <div class="row">
         <div class="col-md-8">
             <p>{{ form.Sex.label }} {{ wtf.form_field(form.Sex) }}</p>
@@ -26,9 +26,8 @@
             <p>{{ form.Married.label }} {{ wtf.form_field(form.Married) }}</p>
             <p>{{ form.Job.label }} {{ wtf.form_field(form.Job) }}</p>
             <br>
-            {{ form.submit() }}
+            {{ form.submit }}
             {{ form.hidden_tag() }}
-        	</div>
-    	</div>
-	</div>
+        </div>
+    </div>
 {% endblock %}
